@@ -11,6 +11,9 @@
   list-style: none;
   text-decoration: none;
 }
+.container{
+  width: var(--containerLg);
+}
 
 .nav {
   width: 1111px;
@@ -34,7 +37,7 @@
 }
 
 .hero__img {
-  width: 1110px;
+  width: 900px;
   height: 600px;
   margin-left: 210px;
   margin-top: 150px;
@@ -179,6 +182,10 @@
 
 
 @media only screen and (max-width:403px){
+  .container{
+    width: var(--containerSm);
+  }
+  
   .nav__logo{
     margin-left: 250px;
   }
