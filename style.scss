@@ -184,9 +184,45 @@ text-decoration: none;
 
  
 }
-@media only screen and (max-width: 390px) {
-   .nav__logo{
-    margin-left:100px;
-   }
+
+  
+@media only screen and (max-width:403px){
+  .container{
+    width: var(--containerSm);
+  }
+  
+  .nav__logo{
+    margin-left: 250px;
+  }
+  .nav__list{
+    display: none;
+  }
+  .fa-bars-staggered {
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .sect__wrapper__btn{
+    margin-left: -400px;
+  }
+  .card__title{
+    font-size: 40px;
+    margin-top: -5px;
+    width: 311px;
+    margin-left: 10px;
+  }
+  .footer__wrapper{
+    width: 950px;
+    height: 45px;
+  }
+  .footer__wrapper__icon {
+    position: absolute;
+    margin-left:800px;
+    width: 104px;
+    height: 24px;
+  }
+
+
+  
   
 }
